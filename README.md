@@ -79,5 +79,3 @@ Das Projekt besteht aus folgenden Dateien und Komponenten:
 
 ### Fazit:  
 Der **AI Study Assistant** ist ein leistungsstarkes Werkzeug für IT-Studierende, das durch die Nutzung von KI das Lernen effizienter und interaktiver gestaltet. Die Anwendung demonstriert die Integration moderner Technologien wie OpenAI GPT-3.5 und Flask in eine benutzerfreundliche Webanwendung.  
-
-Für Fragen oder Feedback kontaktieren Sie mich gerne unter [Ihre E-Mail-Adresse].  
