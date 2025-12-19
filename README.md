@@ -1,5 +1,5 @@
 # AI Study Assistant  
-#### Author: David Mutas / 2178730
+#### Author: David Mutas 
 #### Video: https://youtu.be/SL-C-pSgTeA
 
 ---
