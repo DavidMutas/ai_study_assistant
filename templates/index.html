@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Study Assistant</h1>
+        
+        <!-- Modus-Auswahl -->
+        <div class="mode-buttons">
+            <button class="mode-btn active" onclick="setMode('explain')">Explain</button>
+            <button class="mode-btn" onclick="setMode('quiz')">Quiz</button>
+            <button class="mode-btn" onclick="setMode('debug')">Debug</button>
+        </div>
+
+        <!-- Eingabebereich -->
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Enter your question..."></textarea>
+            <button onclick="askAI()" class="ask-button">Ask</button>
+        </div>
+
+        <!-- Antwortbereich -->
+        <div class="response-box" id="response-area"></div>
+
+        <!-- Verlauf -->
+        <div class="history">
+            <h3>📚 History</h3>
+            <div id="history-list"></div>
+        </div>
+    </div>
+
+    <script>
+        // Markdown-Parser konfigurieren
+        marked.setOptions({
+            breaks: true,
+            sanitize: false
+        });
+    </script>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
